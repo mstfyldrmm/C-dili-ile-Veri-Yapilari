@@ -1,0 +1,22 @@
+AD                            	SOYAD                         	TELEFON
+
+"                             	5                             	6
+
+ahmet                         	inan                          	9
+
+cihat                         	gok                           	3
+
+emre                          	can                           	8
+
+emre can                      	yalcin                        	10
+
+emre can                      	yilmaz                        	11
+
+erdal ermre                   	tozan                         	6
+
+halil can                     	aydin                         	5
+
+mustafa                       	yilmaz                        	4
+
+yunus emre                    	ozturk                        	7
+

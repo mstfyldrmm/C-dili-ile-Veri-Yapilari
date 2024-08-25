@@ -1,0 +1,53 @@
+					BAĞLI LİSTELER 
+Kendi arasında 4 farklı gruba ayrılır:Tek yönlü doğrusal bağlı listeler, çift yönlü doğrusal bağlı listeler, tek yönlü dairesel bağlı listeler
+ve çift yönlü dairesel bağlı listelerdir.
+
+Bağlı listeler, basit olarak veriden ve onu ait göstericiden oluşur(bu yapıya düğüm denir) ve her veri kendisinden sonra gelen veriyi işaret etmek zorundadır.
+
+Bu düğümler nelerden oluşur? . 1- İçerisinde tutacağı değer
+
+2-Kendisinden sonraki gelecek düğümü gösterecek pointer
+
+!!!Bağlı listeler son düğümdeki pointer NULL değeri alır ve hiçbir düğümü işaret etmez. Düğümler burada son bulur.
+
+Bir düğümün sonunu NULL değeri alması ile bulunabilir.
+
+
+Tek yönlü bağlı listeler, göstericiler daima kendinden bir sonraki düğümü işaret eder.
+
+Bağlı listelerde işlemler
+
+1-Traverse(Dolaşma) İşlemi : Bir veri yapısındaki düğümler arasında dolaşma işlemine denir.Dolaşma amacımız aradığımız şeyi bulmaktır
+
+2-Eleman ekleme  
+
+3-Eleman silme
+
+4-Sort(Sıralama vb) işlemi
+
+5-Merge(Birleştirme) işlemi : Örneğin iki bağlı listeyi birleşitirebiliriz.
+
+BAĞLI LİSTELERİN AVANTAJLARI
+
+Dinamik bir yapıdadır.(C dilinde diziler statik yapıdadır yani boyutu sonradan değiştirilemez)
+
+Fiziksel hafıza yettiği sürece eleman ekleme yapılabilir.
+
+Dejavantajları ise random erişim yoktur. Yani 7.elemana ulaşmak için en baştan başlamak gereklidir.
+
+Direkt olarak istenilen elemana erişim mümkün değildir.
+
+Bağlı liste oluşturmak için;
+
+1-Düğüm yapısını oluşturmak gerekir.
+
+2-Düğüm yapısı iki ayrı veri tutacağı için struct veri yapısı ile düğüm oluşturulur.
+
+3-Düğüm yapısında veri ve diğer düğümü göstermek için pointer olmalıdır.
+
+4-Her düğüm için hafızada yer ayırmak gerekir.
+
+5-Hafızada yer ayırma işlemini malloc fonksiyonu ile yaparız.
+
+malloc kullanım şekli------> (geri döndürülecek veri tipi)*malloc(ayrılacak alan*sizeof(veritipi))
+
